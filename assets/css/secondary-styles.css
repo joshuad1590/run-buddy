@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
 .hero {
     background-position: bottom;
     height: auto;
@@ -27,7 +32,7 @@
 .secondary-content {
     width: 80%;
     margin: 0;
-    color: #024e76;
+    color: var(--secondary-color);
 }
 .secondary_content h3 {
     font-size: 25px;
@@ -42,6 +47,6 @@
     margin: 15px 20px;
 }
 .secondary_content li {
-    color: #39a6b2;
+    color: var(--tertiary-color);
     margin: 10px 0;
 }
